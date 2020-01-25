@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Museo Sans Cyrl; /* Имя шрифта */
+	src: url(font/Museo-Sans-Cyr/MuseoSansCyrl.otf) format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 100;	
+}
+
+@font-face {
+    font-family: Museo Sans Cyrl; /* Имя шрифта */
+	src: url(font/Museo-Sans-Cyr/MuseoSansCyrl_0.otf) format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 300;	
+}
+
+@font-face {
+    font-family: Museo Sans Cyrl; /* Имя шрифта */
+	src: url(font/Museo-Sans-Cyr/MuseoSansCyrl_1.otf) format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 500;	
+}
+
+@font-face {
+    font-family: Museo Sans Cyrl; /* Имя шрифта */
+	src: url(font/Museo-Sans-Cyr/MuseoSansCyrl_2.otf) format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;	
+}
+
+@font-face {
+    font-family: Museo Sans Cyrl; /* Имя шрифта */
+	src: url(font/Museo-Sans-Cyr/MuseoSansCyrl_3.otf) format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 900;	
+}
+body {
+	font-family: Museo Sans Cyrl;
+}
+.col {
+	display: flex;
+}
+.col-sm {
+	display: flex;
+}
+
+.container-fluid {
+	width: 100vw;
+	margin: 0 0 0 0;
+}
+
+.row {
+	min-height: 900px;
+}
+
+.Row-1{
+	opacity:0.1;
+	-moz-opacity:0.1;
+	filter: alpha(opacity=10) black;
+	-khtml-opacity: 0.1;
+	background-color:#000;
+}
+
+.row-1 {
+	color: #ffffff;	
+	
+	flex-direction: column;
+
+	background: url(../img/New-Look-for-Old-Short-Term-Corporate-Bond-ETF.jpg) ;
+	mix-blend-mode: multiply;
+
+
+}
+
+.header {
+	display: flex;
+	height: 80px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.header-left {
+	flex-grow: 1;
+}
+
+.header-right {
+	display: flex;	
+	flex-basis: 300px;
+	justify-content: space-evenly;
+	margin: 30px 186px auto auto;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 180%;
+}
+
+.row-1-content {
+	flex: 1 0 auto;
+	display: inline-block;
+	margin: 0 200px;
+}
+
+.row-1-content h1 {
+	font-style: normal;
+	font-weight: bold;
+
+	font-size: 64px;
+	line-height: 130%;
+
+	margin: 122px 0 0 0;	
+}
+
+.row-1-content p {
+	margin: 53px 0 0 0;
+}
+
+.row-1-footer {
+	flex-shrink: 0;
+	min-height: 200px;
+}
+
+.row-2-1 {
+	background: #EBEEF5;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 144px;
+	line-height: 180%;	
+}
+
+.row-2-1 h1 {
+	color: black;
+	transform: rotate(-90deg);
+}
+
+.row-2-2 {
+	display: flex;
+	flex-direction: column;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 180%;
+	margin-top: 131px;
+}
+
+.row-2-2 h2{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 180%;
+	color: #002F87;
+}
+
+.row-2-2 h4{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 180%;
+	color: #002F87;
+}
+.row-2-3-img img {
+	border-radius: 20% 0;
+	height: 487px;	
+	
+	margin: 192px 59px 0 0 ;
+}
+
+.row-3, .row-4 {
+	flex-direction: column;
+}
+
+.row-3-1 {
+	background-color: #323948;
+	min-height: 200px;
+}
